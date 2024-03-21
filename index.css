@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Michroma&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 100vw;
+  height: 700px;
+
+  background-color: rgba(255, 251, 12, 0.762);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+
+h1 {
+  padding-top: 2em;
+  font-family: "Michroma", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 400%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#img_1 {
+  padding-top: 40px;
+}
+
+#img_3 {
+  margin-top: -4em;
+  height: 400px;
+  width: 600px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-style: normal;
+}
+
+.text {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#dolby_logo {
+  height: 90px;
+  width: 90px;
+}
+
+.audio {
+  padding-right: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.text p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
